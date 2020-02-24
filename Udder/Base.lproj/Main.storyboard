@@ -15,14 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWe-3g-LqC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWe-3g-LqC">
                                 <rect key="frame" x="153.5" y="172" width="107" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Fresh milk on demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwG-JM-DlD">
-                                <rect key="frame" x="122.5" y="279" width="169" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FAI-Xj-pzP">
+                                <rect key="frame" x="0.0" y="486" width="414" height="410"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Fresh milk on demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwG-JM-DlD">
+                                <rect key="frame" x="123" y="247" width="169" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,6 +33,11 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="cWe-3g-LqC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="128" id="0VF-5f-YiF"/>
+                            <constraint firstAttribute="bottom" secondItem="FAI-Xj-pzP" secondAttribute="bottom" id="LAJ-1l-7sp"/>
+                            <constraint firstItem="FAI-Xj-pzP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rc5-3l-KUF"/>
+                            <constraint firstItem="FAI-Xj-pzP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="S4P-E4-fAV"/>
+                            <constraint firstItem="FAI-Xj-pzP" firstAttribute="top" secondItem="XwG-JM-DlD" secondAttribute="bottom" id="cFX-F5-ZrQ"/>
                             <constraint firstItem="XwG-JM-DlD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fLu-AF-Ncy"/>
                             <constraint firstItem="cWe-3g-LqC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hYk-uf-kNr"/>
                         </constraints>
@@ -38,7 +46,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="130"/>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="milk.jpg" width="547.5" height="307.5"/>
+    </resources>
 </document>

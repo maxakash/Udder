@@ -13,6 +13,7 @@
 		38E213E824043B1C004ECDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E213E624043B1C004ECDBB /* Main.storyboard */; };
 		38E213EA24043B1D004ECDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E213E924043B1D004ECDBB /* Assets.xcassets */; };
 		38E213ED24043B1D004ECDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E213EB24043B1D004ECDBB /* LaunchScreen.storyboard */; };
+		38E213F524043CC4004ECDBB /* milk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E213F424043CC4004ECDBB /* milk.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		38E213E924043B1D004ECDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38E213EC24043B1D004ECDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38E213EE24043B1D004ECDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E213F424043CC4004ECDBB /* milk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = milk.jpg; path = ../../../../Downloads/milk.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		38E213DF24043B1C004ECDBB /* Udder */ = {
 			isa = PBXGroup;
 			children = (
+				38E213F424043CC4004ECDBB /* milk.jpg */,
 				38E213E024043B1C004ECDBB /* AppDelegate.swift */,
 				38E213E224043B1C004ECDBB /* SceneDelegate.swift */,
 				38E213E424043B1C004ECDBB /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E213F524043CC4004ECDBB /* milk.jpg in Resources */,
 				38E213ED24043B1D004ECDBB /* LaunchScreen.storyboard in Resources */,
 				38E213EA24043B1D004ECDBB /* Assets.xcassets in Resources */,
 				38E213E824043B1C004ECDBB /* Main.storyboard in Resources */,
